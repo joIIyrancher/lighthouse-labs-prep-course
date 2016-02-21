@@ -93,9 +93,8 @@ ul {
 	list-style: none;
 }
 
-li:before {
-	content: "[ ] ";
-	color: blue;
+.item-bought {
+	text-decoration: line-through;
 }
 
 table {
