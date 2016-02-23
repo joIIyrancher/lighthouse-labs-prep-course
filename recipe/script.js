@@ -7,10 +7,4 @@ $(document).ready(function() {
 	$('li.ingredient_items').click(function() {
 		$(this).toggleClass('item-bought');
 	});
-
-	$('div').hover(function() {
-		$(this).css("background-color", "#FFE4C4");
-	}, function() {
-		$(this).css("background-color", "#f5f5dc");
-	});
 });

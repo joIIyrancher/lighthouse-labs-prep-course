@@ -78,6 +78,10 @@ div#link:hover {
 	-webkit-transform: rotate(360deg);
 }
 
+div:hover {
+	background-color: #FFE4C4;
+}
+
 .image {
 	overflow: hidden;
 	transition-duration: 1.5s;
